@@ -41,17 +41,70 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/datasets-img-black-canyon
+```
 
+Alternatively,
 
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
+</section>
 
+<section class="usage">
+
+## Usage
+
+```javascript
+var image = require( '@stdlib/datasets-img-black-canyon' );
+```
+
+#### image()
+
+Returns a [buffer][@stdlib/buffer/ctor] containing image data.
+
+```javascript
+var img = image();
+// returns <Buffer>
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+<!-- TODO: more creative example. -->
+
+## Examples
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var image = require( '@stdlib/datasets-img-black-canyon' );
+
+var img = image();
+console.log( img );
+```
+
+</section>
+
+<!-- /.examples -->
+
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -69,7 +122,7 @@ npm install -g @stdlib/datasets-img-black-canyon-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: img-black-canyon [options]
@@ -86,7 +139,7 @@ Options:
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ img-black-canyon | <image_viewer>
@@ -112,11 +165,6 @@ Digital image courtesy of the Getty's [Open Content Program][getty-open-content]
 
 <section class="related">
 
-## See Also
-
--   <span class="package-name">[`@stdlib/datasets-img-black-canyon`][@stdlib/datasets-img-black-canyon]</span><span class="delimiter">: </span><span class="description">image of Black Canyon.</span>
-
-
 </section>
 
 <!-- /.related -->
@@ -134,7 +182,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -152,8 +200,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-img-black-canyon-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/datasets-img-black-canyon-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-img-black-canyon.svg
+[npm-url]: https://npmjs.org/package/@stdlib/datasets-img-black-canyon
 
 [test-image]: https://github.com/stdlib-js/datasets-img-black-canyon/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/datasets-img-black-canyon/actions/workflows/test.yml?query=branch:main
