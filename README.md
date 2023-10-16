@@ -214,8 +214,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-img-black-canyon.svg
 [npm-url]: https://npmjs.org/package/@stdlib/datasets-img-black-canyon
 
-[test-image]: https://github.com/stdlib-js/datasets-img-black-canyon/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/datasets-img-black-canyon/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/datasets-img-black-canyon/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/datasets-img-black-canyon/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-img-black-canyon/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-img-black-canyon?branch=main
@@ -254,7 +254,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [apache-license]: https://www.apache.org/licenses/LICENSE-2.0
 
-[@osullivan:1871a]: http://www.getty.edu/art/collection/objects/40209/timothy-h-o'sullivan-black-canon-colorado-river-from-camp-8-looking-above-american-1871/
+[@osullivan:1871a]: http://www.getty.edu/art/collection/objects/40209/timothy-h-o%27sullivan-black-canon-colorado-river-from-camp-8-looking-above-american-1871/
 
 [@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
